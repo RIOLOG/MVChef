@@ -34,6 +34,7 @@ app.use(morgan('dev'));
 //using all routes defined in routes folder seprately to main file:
 app.use('/api/v1/test', require("./routes/testRoute"));
 app.use('/api/v1/auth', require("./routes/authRoutes"));
+app.use('/api/v1/user', require("./routes/userRoute"));
 
 
 

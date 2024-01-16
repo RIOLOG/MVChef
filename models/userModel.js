@@ -32,6 +32,10 @@ const userSchema = new mongoose.Schema({
     profile:{
         type:String,
         default:"https://th.bing.com/th/id/OIP.jixXH_Els1MXBRmKFdMQPAHaHa?w=218&h=219&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+    },
+    answer:{
+        type:String,
+        required:[true, 'Answer is required']
     }
 }, {timestamps:true})
 
