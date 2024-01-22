@@ -37,7 +37,7 @@ app.use('/api/v1/auth', require("./routes/authRoutes"));
 app.use('/api/v1/user', require("./routes/userRoute"));
 app.use('/api/v1/resturant', require('./routes/resturantRoute'))
 app.use('/api/v1/category', require('./routes/categoryRoute'));
-
+app.use('/api/v1/food', require('./routes/foodRoute'));
 
 
 //routes:
