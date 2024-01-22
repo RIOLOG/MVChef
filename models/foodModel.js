@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
 
-
 //schema
 const foodSchema = new mongoose.Schema(
   {
