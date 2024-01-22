@@ -4,7 +4,6 @@ const { createFoodController, getAllFooodController, getSingleFoodController, fo
 
 
 
-
 //router object:
 const router = express.Router();
 
